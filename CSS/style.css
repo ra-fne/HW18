@@ -143,6 +143,11 @@ section {
 }
 
 
+
+
+
+
+
 @media only screen and (max-width: 600px) {
   .mySkills {
     flex-direction: column;
@@ -150,13 +155,31 @@ section {
    }
 
 .cardSkill {
-  min-width: 50%;
-}
+  min-width: 80%;
+} 
+
+
+/* my Work section*/
 
 .grid-parent {
   grid-template-columns: 1fr;
+  grid-row-gap: 4rem;
+  padding: 2rem;
 }
   
+
+.grid-child1 {
+  background-image: url("/images/ATO.png");
+  grid-column: span 12;
+}
+
+
+.grid-child2 {
+  background-image: url("/images/SL.png");
+  grid-column: span 12;
+}
+
+
 }
 
 
